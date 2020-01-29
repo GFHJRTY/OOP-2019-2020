@@ -14,5 +14,13 @@ public class Main
 
         Cat topcat = new Cat();
         topcat.speak();
+		
+		int MAX = topcat.getNumLives();
+		
+		for(int i=0;i<=MAX;i++){
+			
+			topcat.kill();
+			
+		}
     }
 }
